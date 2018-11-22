@@ -76,6 +76,10 @@ bot.on('message', message => {
     if (message.content === "Satan"){
         message.channel.send("Golf It or not Golf It, that is the question !")
     }
+    
+    if (message.content === "Siegduk"){
+        message.channel.send("Tu sais qu't'es bonne en mini jupe ma coquine, j'en ferai bien mon 4heure")
+    }
 });
 
 var prefix = ("<")
